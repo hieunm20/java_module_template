@@ -1,0 +1,56 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.DS_Store
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+### CUSTOM ###
+# files
+*.log
+application-dev-*.properties
+application-dev-*.yml
+application-local-icovn.yml
+application-prod-*.properties
+application-prod-*.yml
+client_secret.json
+credentials.json
+dependency-reduced-pom.xml
+firebase-adminsdk-*.json
+nb-configuration.xml
+nbactions.xml
+pom.xml.releaseBackup
+release.properties
+
+# directories
+/crdentials
+/out/
+/tokens
+**/.mvn/**
+**/logs/**
+**/target/**
